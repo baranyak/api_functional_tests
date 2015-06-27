@@ -6,7 +6,7 @@ if __name__ == '__main__':
     sys.path.append(os.path.dirname(__file__) + '/../')
 
 import config
-from api_functional_tests.core.task_parser import ResponseParser
+from core.task_parser import ResponseParser
 
 
 
