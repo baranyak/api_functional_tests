@@ -26,3 +26,6 @@ class TestGetMethod:
                                                  username=USERNAME,
                                                  password=PASSWORD)
         assert actual_task.title == expected_title, 'Invalid title'
+
+    def test_pass(self):
+        pass
